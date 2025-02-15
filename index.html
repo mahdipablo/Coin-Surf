@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Surf</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Home Page -->
+        <div id="home-page" class="page">
+            <div class="profile-section">
+                <div class="profile-info">
+                    <div class="user-container">
+                        <img src="https://via.placeholder.com/40" alt="Profile" class="profile-pic">
+                        <div class="user-details">
+                            <span class="username">@MahdiPablo</span>
+                            <span class="user-id">UID: 34992</span>
+                        </div>
+                    </div>
+                    <div class="header-icons">
+                        <button class="settings-btn"><i class="bi bi-gear"></i></button>
+                        <button class="notification-btn"><i class="bi bi-bell"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="balances-container">
+                <div class="balance-card">
+                    <span class="balance-label">Balance</span>
+                    <div class="balance-amount">
+                        <span class="amount">125</span>
+                        <span class="decimals">.50</span>
+                    </div>
+                </div>
+                
+                <div class="balance-card">
+                    <span class="balance-label">Deposit Balance</span>
+                    <div class="balance-amount">
+                        <span class="amount">89</span>
+                        <span class="decimals">.75</span>
+                    </div>
+                </div>
+                
+                <div class="balance-card">
+                    <span class="balance-label">Earning Bonus</span>
+                    <div class="balance-amount">
+                        <span class="amount">42</span>
+                        <span class="decimals">.30</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="action-btn">
+                    <i class="bi bi-credit-card icon"></i>
+                    <span>Wallets</span>
+                </button>
+                <button class="action-btn">
+                    <i class="bi bi-box-arrow-up-right icon"></i>
+                    <span>Withdraw</span>
+                </button>
+                <button class="action-btn">
+                    <i class="bi bi-clock-history icon"></i>
+                    <span>History</span>
+                </button>
+            </div>
+
+            <div class="level-section">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="level-info">
+                        <span class="level">Level 0</span>
+                        <span class="upgrade-text">19 863 till upgrade</span>
+                    </div>
+                    <span class="percentage">+0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+
+            <div class="ads-section">
+                <button class="ads-btn">
+                    <div>
+                        <i class="bi bi-megaphone icon"></i>
+                        <span>Viewing ads</span>
+                    </div>
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Tasks Page -->
+        <div id="tasks-page" class="page">
+            <div class="page-header">
+                <h2>Tasks</h2>
+            </div>
+            <div class="tasks-list">
+                <div class="task-item">
+                    <div class="task-info">
+                        <i class="bi bi-star-fill task-icon"></i>
+                        <div class="task-details">
+                            <h3>Daily Login</h3>
+                            <p>Login daily to earn bonus coins</p>
+                        </div>
+                    </div>
+                    <button class="claim-btn">Claim</button>
+                </div>
+                <div class="task-item">
+                    <div class="task-info">
+                        <i class="bi bi-trophy-fill task-icon"></i>
+                        <div class="task-details">
+                            <h3>Watch 5 Videos</h3>
+                            <p>Complete watching 5 videos</p>
+                        </div>
+                    </div>
+                    <button class="claim-btn">2/5</button>
+                </div>
+                <!-- Add more tasks as needed -->
+            </div>
+        </div>
+
+        <!-- Video Ads Page -->
+        <div id="video-ads-page" class="page">
+            <div class="page-header">
+                <h2>Video Ads</h2>
+            </div>
+            <div class="video-ads-list">
+                <div class="video-item">
+                    <div class="video-thumbnail">
+                        <i class="bi bi-play-circle-fill"></i>
+                    </div>
+                    <div class="video-info">
+                        <h3>Watch and Earn</h3>
+                        <p>Earn 10 coins per video</p>
+                    </div>
+                    <button class="watch-btn">Watch</button>
+                </div>
+                <!-- Add more video items -->
+            </div>
+        </div>
+
+        <!-- Surfing Page -->
+        <div id="surfing-page" class="page">
+            <div class="page-header">
+                <h2>Surfing</h2>
+            </div>
+            <div class="surfing-content">
+                <div class="surf-item">
+                    <div class="surf-info">
+                        <i class="bi bi-globe surf-icon"></i>
+                        <div class="surf-details">
+                            <h3>Visit Websites</h3>
+                            <p>Earn coins by visiting websites</p>
+                        </div>
+                    </div>
+                    <button class="surf-btn">Start Surfing</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Referrals Page -->
+        <div id="referrals-page" class="page">
+            <div class="page-header">
+                <h2>Referrals</h2>
+            </div>
+            <div class="referral-stats">
+                <div class="stat-card">
+                    <h3>Total Referrals</h3>
+                    <span class="stat-value">0</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Total Earnings</h3>
+                    <span class="stat-value">0.00</span>
+                </div>
+            </div>
+            <div class="referral-link">
+                <h3>Your Referral Link</h3>
+                <div class="link-container">
+                    <input type="text" value="https://coinsurf.example/ref/MahdiPablo" readonly>
+                    <button class="copy-btn"><i class="bi bi-clipboard"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <nav class="bottom-nav">
+            <button class="nav-btn active" data-page="home-page">
+                <i class="bi bi-house icon"></i>
+                <span>Home</span>
+            </button>
+            <button class="nav-btn" data-page="tasks-page">
+                <i class="bi bi-list-check icon"></i>
+                <span>Tasks</span>
+            </button>
+            <button class="nav-btn" data-page="video-ads-page">
+                <i class="bi bi-play-btn icon"></i>
+                <span>Video Ads</span>
+            </button>
+            <button class="nav-btn" data-page="surfing-page">
+                <i class="bi bi-globe icon"></i>
+                <span>Surfing</span>
+            </button>
+            <button class="nav-btn" data-page="referrals-page">
+                <i class="bi bi-people icon"></i>
+                <span>Referrals</span>
+            </button>
+        </nav>
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
