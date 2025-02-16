@@ -1,6 +1,3 @@
-import 'style.css'
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
     // Navigation Buttons Animation and Page Switching
